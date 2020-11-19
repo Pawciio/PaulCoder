@@ -42,8 +42,8 @@ const Root = () => {
       <ThemeProvider theme={theme}>
         <>
           <Header />
-          <AboutUs className="test2" />
-          <Advantages className="test" />
+          <AboutUs />
+          <Advantages />
           <ServiceIcon />
           <Contact />
         </>
