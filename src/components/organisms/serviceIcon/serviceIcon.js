@@ -12,7 +12,7 @@ import Support from 'assets/ServiceIcon/Support.png';
 import Technologies from 'assets/ServiceIcon/Technologies.png';
 
 const StyledWrapper = styled.section`
-  padding-top: 60px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;

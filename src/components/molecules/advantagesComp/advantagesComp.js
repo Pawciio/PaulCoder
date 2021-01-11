@@ -41,6 +41,7 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
 `;
 
 const StyledWrapperItem = styled.div`
