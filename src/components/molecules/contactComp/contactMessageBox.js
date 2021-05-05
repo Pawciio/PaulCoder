@@ -45,7 +45,14 @@ class ContactMessage extends React.Component {
     this.setState({
       sendButton: true,
     });
+    setTimeout(() => {
+      this.setState({
+        sendButton: false,
+      });
+    }, 10000);
   };
+
+  changeToFalse = () => {};
 
   render() {
     return (

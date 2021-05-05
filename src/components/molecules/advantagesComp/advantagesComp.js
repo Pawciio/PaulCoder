@@ -72,6 +72,7 @@ const WrapperHoverContent = styled.div`
     visibility: hidden;
     position: absolute;
   }
+  
   &:hover {
     animation: ${appear} 0.4s ease-in-out;
     .pVisible {
